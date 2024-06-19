@@ -1,4 +1,4 @@
-
+var db = openData
 
 function AbrirMenu() {
     var inputEmail = document.getElementById("Input_Email").value;
