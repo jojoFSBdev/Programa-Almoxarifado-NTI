@@ -1,4 +1,6 @@
-var db = openData
+import {sqlite3} from sqlite3;
+import {open} from sqlite;
+
 
 function AbrirMenu() {
     var inputEmail = document.getElementById("Input_Email").value;
