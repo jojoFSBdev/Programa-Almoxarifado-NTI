@@ -1,10 +1,7 @@
-import {sqlite3} from sqlite3;
-import {open} from sqlite;
 
-
-function openMenu(this) {
-    var email = document.getElementById("INPT_email").value;
-    var senha = document.getElementById("INPT_pass").value;
+function openMenu() {
+    var emailElement = document.querySelector(".INPT_email").value;
+    var senhaElement = document.querySelector(".INPT_pass").value;
     
-    console.log(email, senha);
+    console.log(emailElement, senhaElement);
 }
