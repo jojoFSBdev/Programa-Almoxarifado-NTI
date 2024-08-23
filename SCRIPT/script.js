@@ -2,9 +2,9 @@ import {sqlite3} from sqlite3;
 import {open} from sqlite;
 
 
-function AbrirMenu() {
-    var inputEmail = document.getElementById("Input_Email").value;
-    var inputPass = document.getElementById("Input_Pass").value;
+function openMenu() {
+    var inputEmail = document.getElementById("INPT_Email").value;
+    var inputPass = document.getElementById("INPT_Pass").value;
     
     console.log(inputEmail, inputPass)
     if (inputEmail != "teste" || inputPass != "123321") {
