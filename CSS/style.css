@@ -49,8 +49,8 @@ body {
     border: 2px solid rgba(134, 134, 134, 0.404);
 }
 
-.DIV_login button :hover {
-    color: red;
+button:hover {
+    cursor: pointer;
 }
 
 .DIV_login input {
@@ -61,7 +61,4 @@ body {
     border-radius: 5px;
     color: rgb(134, 134, 134, 0.404);
     font-size: 15px;
-}
-
-footer  {
 }

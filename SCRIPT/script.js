@@ -3,13 +3,8 @@ import {open} from sqlite;
 
 
 function openMenu() {
-    var inputEmail = document.getElementById("INPT_Email").value;
-    var inputPass = document.getElementById("INPT_Pass").value;
+    var email = document.getElementById("INPT_email").value
+    var senha = document.getElementById("INPT_pass").value   
     
-    console.log(inputEmail, inputPass)
-    if (inputEmail != "teste" || inputPass != "123321") {
-        window.alert("Email ou Senha inseridos esta incorreto!")
-    }else{
-        window.location.href = "../HTML/tela_Principal.html"
-    }
+    console.log(email, senha)
 }
