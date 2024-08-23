@@ -39,7 +39,17 @@ body {
     opacity: 60%;
 }
 
-.DIV_login button {
+#INPT_Email, #INPT_Pass {
+    border: 2px solid rgba(134, 134, 134, 0.404);
+    background-color: rgba(0, 0, 0, 0);
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    color: rgb(134, 134, 134, 0.404);
+    font-size: 15px;
+}
+
+.BTN_Login {
     width: 150px;
     height: 45px;
     border-radius: 5px;
@@ -49,16 +59,6 @@ body {
     border: 2px solid rgba(134, 134, 134, 0.404);
 }
 
-button:hover {
+.BTN_Login:hover {
     cursor: pointer;
-}
-
-.DIV_login input {
-    border: 2px solid rgba(134, 134, 134, 0.404);
-    background-color: rgba(0, 0, 0, 0);
-    width: 300px;
-    height: 45px;
-    border-radius: 5px;
-    color: rgb(134, 134, 134, 0.404);
-    font-size: 15px;
 }
